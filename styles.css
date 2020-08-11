@@ -10,10 +10,8 @@ a{
 
 /*****************************************************************CLASS SELECTORS***********************************************************************/
 .attribution{
-  color:white;
-  position:absolute;
-  left:600px;
-    bottom: 0px;
+
+
 }
 
 
@@ -34,9 +32,9 @@ a{
     height: 100px;
     border-radius: 15px 100px 15px 15px;
    position:absolute;
-   top: 250px;
-   left:350px;
-    padding: 40px 0px 40px 40px;
+   top: 220px;
+   left:280px;
+    padding: 60px 0px 50px 40px;
     display: inline-block;
 
 }
@@ -48,6 +46,7 @@ a{
   margin: 20px 5px;
 
 }
+
 .start{
   float:left;
 
@@ -59,17 +58,66 @@ a{
   background-color: hsl(228, 56%, 26%);
     color: white;
     position: absolute;
-    top: 280px;
-    left: 740px;
+    top: 260px;
+    left: 660px;
     height: 70px;
-    padding: 40px;
+    padding: 50px;
     border-radius: 20px;
-    width: 400px;
+    width: 500px;
 
 }
 .base_img{
   position: relative;
   top: 300px;
-
-
 }
+.gigb-output {
+
+
+
+    margin-left: 25px;
+}
+.gb-tooltip {
+    position: absolute;
+
+
+    top: 15em;
+    right: 28em;
+    margin: auto;
+    height: 80px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.tooltip-bubble {
+  margin: 19px;
+      font-size: 30px;}
+
+input[type=range] {
+          -webkit-appearance: none;
+          width: 90%;
+          border-radius: 10px;
+          outline: none;
+          background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 80%, #0c122c 80%, #0c122c 100%);
+          margin: auto;
+      }
+      input[type=range]::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          border: 1px solid var(--slider-thumb-border);
+          height: 15px;
+          width: 15px;
+          border-radius: 80%;
+          background: white;
+          border: 1px solid var(--slider-thumb-border);
+          cursor: pointer;
+      }
+      .arrow{
+
+          position: absolute;
+          top: 4.6em;
+          right: 0em;
+          height: 0px;
+          width: 0px;
+          border-left: 25px solid transparent;
+          border-right: 0px solid transparent;
+          border-top: 60px solid #ffffff;
+        }
