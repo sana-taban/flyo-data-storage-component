@@ -2,12 +2,18 @@
 body{
   background-color: hsl(229, 57%, 11%);
 }
+a{
 
+  text-decoration: none;
+}
 
 
 /*****************************************************************CLASS SELECTORS***********************************************************************/
 .attribution{
   color:white;
+  position:absolute;
+  left:600px;
+    bottom: 0px;
 }
 
 
