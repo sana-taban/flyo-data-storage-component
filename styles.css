@@ -6,15 +6,19 @@ body{
 
 
 /*****************************************************************CLASS SELECTORS***********************************************************************/
-
-
+.attribution{
+  color:white;
 }
+
+
 .comment{
   background-color: white;
+      color: black;
+      position: absolute;
+      top: 250px;
 
-  
-  color: black;
-  font-size: 100px;
+      right: 480px;
+      padding: 20px
 }
 .options{
 
