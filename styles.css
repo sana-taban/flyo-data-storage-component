@@ -12,10 +12,10 @@ a{
 /*****************************************************************CLASS SELECTORS***********************************************************************/
 .attribution{
   position: relative;
-    
+
 }
 .comment{
-  background-color: white;
+      background-color: white;
       color: black;
       position: absolute;
       top: 200px;
@@ -24,16 +24,14 @@ a{
 }
 .options{
 
-  background-color: hsl(228, 56%, 26%);
-
-    width: 20%;
-    height: 100px;
-    border-radius: 15px 100px 15px 15px;
-    position: absolute;
-     top: 180px;
-   left:280px;
-    padding: 60px 0px 50px 40px;
-    display: inline-block;
+      background-color: hsl(228, 56%, 26%);
+      width: 20%;
+      height: 100px;
+      border-radius: 15px 100px 15px 15px;
+      position: relative;
+      left:280px;
+      padding: 60px 0px 50px 40px;
+      display: inline-block;
 
 }
 .small_icons{
@@ -55,33 +53,41 @@ a{
 .write{
   background-color: hsl(228, 56%, 26%);
     color: white;
-    position: absolute;
-    top: 220px;
-    left: 660px;
+    position: relative;
+    top: 16px;
+     display: inline-block;
+    left: 300px;
     height: 70px;
     padding: 50px;
     border-radius: 20px;
     width: 30%;
+  }
+
 .content{
   width:100%;
+  display: block;
+  position: relative;
+  bottom: 300px;
 }
-}
+
 .base_img{
   position: relative;
   top: 265px;
 }
+
 .gigb-output {
 margin-left: 25px;
 }
 .gb-tooltip {
     position: absolute;
-    top: 11em;
-    right: 28em;
+    bottom: 7em;
+    left: 12em;
     margin: auto;
     height: 80px;
     width: 190px;
     border-radius: 10px;
     background-color: #ffffff;
+    color: black;
 }
 .tooltip-bubble {
   margin: 19px;
