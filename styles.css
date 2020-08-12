@@ -12,7 +12,7 @@ a{
 /*****************************************************************CLASS SELECTORS***********************************************************************/
 .attribution{
   position: relative;
-    bottom: 130px;
+    
 }
 .comment{
   background-color: white;
@@ -29,8 +29,8 @@ a{
     width: 20%;
     height: 100px;
     border-radius: 15px 100px 15px 15px;
-    position: relative;
-     bottom: 280px;
+    position: absolute;
+     top: 180px;
    left:280px;
     padding: 60px 0px 50px 40px;
     display: inline-block;
@@ -55,14 +55,16 @@ a{
 .write{
   background-color: hsl(228, 56%, 26%);
     color: white;
-    position: relative;
-    bottom: 450px;
+    position: absolute;
+    top: 220px;
     left: 660px;
     height: 70px;
     padding: 50px;
     border-radius: 20px;
     width: 30%;
-
+.content{
+  width:100%;
+}
 }
 .base_img{
   position: relative;
