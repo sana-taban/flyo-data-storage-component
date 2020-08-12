@@ -19,7 +19,7 @@ a{
   background-color: white;
       color: black;
       position: absolute;
-      top: 250px;
+      top: 200px;
 
       right: 480px;
       padding: 20px
@@ -32,7 +32,7 @@ a{
     height: 100px;
     border-radius: 15px 100px 15px 15px;
    position:absolute;
-   top: 220px;
+   top: 200px;
    left:280px;
     padding: 60px 0px 50px 40px;
     display: inline-block;
@@ -58,7 +58,7 @@ a{
   background-color: hsl(228, 56%, 26%);
     color: white;
     position: absolute;
-    top: 260px;
+    top: 240px;
     left: 660px;
     height: 70px;
     padding: 50px;
@@ -68,7 +68,7 @@ a{
 }
 .base_img{
   position: relative;
-  top: 300px;
+  top: 265px;
 }
 .gigb-output {
 
@@ -80,7 +80,7 @@ a{
     position: absolute;
 
 
-    top: 15em;
+    top: 13em;
     right: 28em;
     margin: auto;
     height: 80px;
