@@ -1,6 +1,7 @@
 /***************************************************************** TAG SELECTORS********************************************************************/
 body{
   background-color: hsl(229, 57%, 11%);
+  margin:0;
 }
 a{
 
@@ -10,11 +11,9 @@ a{
 
 /*****************************************************************CLASS SELECTORS***********************************************************************/
 .attribution{
-
-
+  position: relative;
+    bottom: 130px;
 }
-
-
 .comment{
   background-color: white;
       color: black;
@@ -31,8 +30,8 @@ a{
     width: 300px;
     height: 100px;
     border-radius: 15px 100px 15px 15px;
-   position:absolute;
-   top: 200px;
+    position: relative;
+     bottom: 280px;
    left:280px;
     padding: 60px 0px 50px 40px;
     display: inline-block;
@@ -57,8 +56,8 @@ a{
 .write{
   background-color: hsl(228, 56%, 26%);
     color: white;
-    position: absolute;
-    top: 240px;
+    position: relative;
+    bottom: 450px;
     left: 660px;
     height: 70px;
     padding: 50px;
@@ -71,16 +70,11 @@ a{
   top: 265px;
 }
 .gigb-output {
-
-
-
-    margin-left: 25px;
+margin-left: 25px;
 }
 .gb-tooltip {
     position: absolute;
-
-
-    top: 13em;
+    top: 11em;
     right: 28em;
     margin: auto;
     height: 80px;
